@@ -1,6 +1,19 @@
+#Node.js
 node_modules/
-.env
 npm-debug.log*
-.DS_Store
-*.log
+
+#Environment Variables
+.env
+.env.local
+
+#Tests
 coverage/
+
+#System
+.DS_Store
+
+#Logs
+*.log
+
+#Vercel
+.vercel/
