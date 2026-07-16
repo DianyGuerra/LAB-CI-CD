@@ -6,7 +6,8 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
     res.status(200).json({
-        mensaje: 'CI/CD Funcionando correctamente',
+        mensaje: 'Nueva version desplegada automaticamente',
+        nombre: 'Diana Guerra',
         servicio: 'API Express desplegada en Vercel'
     });
 });
